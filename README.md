@@ -4,6 +4,8 @@
 
 # one-prompt-ppt
 
+中文 | [English](README.en.md)
+
 给 AI 一份材料，再说一句讲给谁听，它交回一份有主次、可编辑的 `.pptx`。
 
 这是一个 agent skill，装进 Claude Code 这类支持 skill 的工具里使用。它不训练模型，也不调用任何在线服务：规则写在 Markdown 里，检查和绘图用三个 Python 脚本完成。
