@@ -342,6 +342,8 @@ class Page:
         """画一个图示。一页上的图示共用一档字号：从大到小试，取整页放得进主体区的最大一档。
         每加一个图示，前面画过的图示按新的字号重画，上下的间距保持不变。"""
         recs = self._recs
+        if self.body is None:
+            self.note("这种页面没有主体区，画上去的图示会压在标题上。要列的内容放到前一张正文页，这一页只填标题和副标题。")
         above = [r for r in recs if r["bottom"] <= y + 0.01 and y - r["bottom"] <= 1.0]
         rec = {"fn": fn, "x": x, "y": y, "w": w, "a": a, "k": k, "leave": leave, "grow": grow or FIT_STEPS[0], "shrink": shrink or FIT_MIN,
                "els": [], "bottom": 0.0,
