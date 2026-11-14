@@ -1,0 +1,118 @@
+{
+  "name": "朱砂",
+  "用途": "分析调研、观点鲜明的汇报。米白、墨黑加一个朱红圆，全部是可编辑的矢量图形",
+  "block": "line",
+  "shadow": false,
+  "colors": {
+    "primary": "accent1",
+    "accent": "accent1",
+    "text": "tx1",
+    "muted": "accent5",
+    "line": "accent6",
+    "tint": "bg2",
+    "surface": "bg1",
+    "on_primary": "bg1",
+    "dark": "tx1"
+  },
+  "roles": {
+    "cover": {
+      "layout": "封面",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "subtitle": {
+          "ph": 1
+        },
+        "kicker": {
+          "ph": 13
+        },
+        "meta": {
+          "ph": 14
+        }
+      }
+    },
+    "agenda": {
+      "layout": "目录",
+      "fields": {
+        "title": {
+          "ph": 0
+        }
+      },
+      "body": [
+        0.8,
+        2.1,
+        8.2,
+        4.6
+      ]
+    },
+    "section": {
+      "layout": "章首页",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "number": {
+          "ph": 13
+        },
+        "lead": {
+          "ph": 14
+        }
+      }
+    },
+    "content": {
+      "layout": "正文",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "lead": {
+          "ph": 13
+        },
+        "conclusion": {
+          "box": [
+            0.8,
+            6.26,
+            11.73,
+            0.56
+          ],
+          "size": 13.5,
+          "bold": true,
+          "color": "on_primary",
+          "fill": "dark",
+          "inset": [
+            0.25,
+            0,
+            0.25,
+            0
+          ]
+        },
+        "chapter": {
+          "ph": 15
+        },
+        "source": {
+          "ph": 16
+        }
+      },
+      "body": [
+        0.8,
+        1.85,
+        11.73,
+        4.3
+      ],
+      "lead_h": 0.45,
+      "conclusion_h": 0.68
+    },
+    "closing": {
+      "layout": "结尾",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "subtitle": {
+          "ph": 1
+        }
+      }
+    }
+  }
+}

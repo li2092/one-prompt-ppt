@@ -1,0 +1,119 @@
+{
+  "name": "极光",
+  "用途": "客户方案交流、培训、现场讲。渐变光斑底图，白色卡片带柔和阴影",
+  "block": "card",
+  "shadow": true,
+  "colors": {
+    "primary": "accent1",
+    "accent": "accent3",
+    "text": "tx1",
+    "muted": "accent5",
+    "line": "accent6",
+    "tint": "accent1+0.9",
+    "surface": "bg1",
+    "on_primary": "bg1",
+    "dark": "tx2"
+  },
+  "roles": {
+    "cover": {
+      "layout": "封面",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "subtitle": {
+          "ph": 1
+        },
+        "kicker": {
+          "ph": 13
+        },
+        "meta": {
+          "ph": 14
+        }
+      }
+    },
+    "agenda": {
+      "layout": "目录",
+      "fields": {
+        "title": {
+          "ph": 0
+        }
+      },
+      "body": [
+        0.8,
+        2.05,
+        8.6,
+        4.7
+      ]
+    },
+    "section": {
+      "layout": "章首页",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "number": {
+          "ph": 13
+        },
+        "lead": {
+          "ph": 14
+        }
+      }
+    },
+    "content": {
+      "layout": "正文",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "lead": {
+          "ph": 13
+        },
+        "conclusion": {
+          "box": [
+            0.8,
+            6.26,
+            11.73,
+            0.56
+          ],
+          "size": 13.5,
+          "bold": true,
+          "color": "on_primary",
+          "fill": "primary",
+          "radius": 0.28,
+          "inset": [
+            0.35,
+            0,
+            0.35,
+            0
+          ]
+        },
+        "chapter": {
+          "ph": 15
+        },
+        "source": {
+          "ph": 16
+        }
+      },
+      "body": [
+        0.8,
+        1.85,
+        11.73,
+        4.3
+      ],
+      "lead_h": 0.45,
+      "conclusion_h": 0.68
+    },
+    "closing": {
+      "layout": "结尾",
+      "fields": {
+        "title": {
+          "ph": 0
+        },
+        "subtitle": {
+          "ph": 1
+        }
+      }
+    }
+  }
+}
